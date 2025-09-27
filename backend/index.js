@@ -16,7 +16,7 @@ app.use(express.json());
 // Database Connection
 const { connect } = require('./db.js');
 
-const dbConnectionUrl = `mongodb+srv://ayushman:${process.env.password}@cluster0.z8hwd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const dbConnectionUrl = `mongodb+srv://mihiirsen:${process.env.password}@cluster0.sqcjuda.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 const connectToDatabase = async () => {
     try {
